@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter product</title>
+    <link rel="stylesheet" href="./assets/css/filter.css">
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <input type="search" class="menu__search" placeholder="Search...">
+            <h1>Categories</h1>
+            <div class="menu__categories"></div>
+            <h1>Maximum price</h1>
+            <div class="menu__price">
+                <input type="range" class="menu__price__range">
+                <span class="menu__price__value" >$40</span>
+            </div>
+        </div>
+        <div class="products"></div>
+    </div>
+    <script src="./assets/js/filter.js" type="module"></script>
+</body>
+</html>
